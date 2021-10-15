@@ -1,0 +1,33 @@
+/******************************
+ * Mamma Duck's Revenge
+ ******************************
+ * Game
+ * ____________________________
+ * Evan Stankard, 
+ * 10/15/2021
+ * CMSC 355 - 001
+ *****************************/
+ 
+ 
+ BackLog
+ -Title screen with logo and tap to play text
+  * title music
+ 
+ -Still Image cutscene
+  * backstory
+  * music
+  * dialouge
+  
+ -Levels 
+   * Tutorial level
+   * Ground level
+   * Water level
+   * Air level
+   * Boss battle
+   * egg games
+   
+  -Level design
+   * Ground levels will use puzzle and platforming elements to get to the end of a stage
+   * Water levels will be puzzle and platforming elements to get to the end of a stage
+   * Air levels will use flight mechanics to doge projectiles
+   * Consistent level type?
