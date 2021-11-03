@@ -3,8 +3,8 @@
  ******************************
  * Game
  * ____________________________
- * Evan Stankard, 
- * 10/15/2021
+ * Evan Stankard, Ofir Abramson, Mary Agyei-yeboah, Anagha Harer
+ * 11/3/2021
  * CMSC 355 - 001
  *****************************/
  
