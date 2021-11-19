@@ -43,6 +43,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        //click to play button
         <Button
             android:id="@+id/button"
             android:layout_width="412dp"
