@@ -27,7 +27,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        //mama duck's revenge text
+        <!--mama duck's revenge title-->
         <EditText
             android:id="@+id/editTextTextPersonName"
             android:layout_width="412dp"
@@ -43,7 +43,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        //click to play button
+        <!--click to play button-->
         <Button
             android:id="@+id/button"
             android:layout_width="412dp"
@@ -58,7 +58,7 @@
             app:layout_constraintVertical_bias="0.0" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
+    <!--duck icon-->
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="203dp"
