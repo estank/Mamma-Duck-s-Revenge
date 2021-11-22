@@ -9,3 +9,4 @@ class Activity2 : AppCompatActivity() {
         setContentView(R.layout.activity_2)
     }
 }
+//Second page of our app
