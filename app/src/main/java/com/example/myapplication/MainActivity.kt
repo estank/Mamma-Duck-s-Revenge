@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //When you click on the button it takes you to the next page
         val secondActButton = findViewById<Button>(R.id.button)
         secondActButton.setOnClickListener{
             val Intent = Intent(this,Activity2::class.java)
