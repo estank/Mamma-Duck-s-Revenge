@@ -8,24 +8,20 @@
         "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_2.xml.flat",
         "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\layout\\activity_2.xml"
     },
     {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
@@ -40,35 +36,35 @@
         "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\drawable\\duck_19421.png"
     },
     {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\drawable_duckredeye.png.flat",
+        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\drawable\\duckredeye.png"
+    },
+    {
+        "merged": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     }
 ]

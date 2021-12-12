@@ -1789,6 +1789,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable duck_19421
+drawable duckredeye
 drawable frontduckwalk
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2465,6 +2466,7 @@ layout text_view_without_line_height
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
