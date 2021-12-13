@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldrtl-v17/values-ldrtl-v17.xml",
+            "outputFile": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldrtl-v17\\values-ldrtl-v17.xml",
             "map": [
                 {
-                    "source": "/Users/anagha/.gradle/caches/transforms-3/b64c581a9daa138f08ffadfeafcf90fd/transformed/material-1.4.0/res/values-ldrtl-v17/values-ldrtl-v17.xml",
+                    "source": "C:\\Users\\Evan\\.gradle\\caches\\transforms-3\\b64c581a9daa138f08ffadfeafcf90fd\\transformed\\material-1.4.0\\res\\values-ldrtl-v17\\values-ldrtl-v17.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

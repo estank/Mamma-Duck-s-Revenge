@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/ic_launcher_background.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/layout/activity_2.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/layout/activity_main.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16614583333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35572916666666665" />
       </map>
     </option>
@@ -12,5 +17,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.16145833333333334" />
+      </ProjectState>
+    </option>
   </component>
 </project>

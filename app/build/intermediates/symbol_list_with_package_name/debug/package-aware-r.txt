@@ -458,8 +458,10 @@ attr fontWeight
 attr forceApplySystemWindowInsetTop
 attr foregroundInsidePadding
 attr framePosition
+attr freezesAnimation
 attr gapBetweenBars
 attr gestureInsetBottomIgnored
+attr gifSource
 attr goIcon
 attr haloColor
 attr haloRadius
@@ -508,6 +510,7 @@ attr initialActivityCount
 attr insetForeground
 attr isLightTheme
 attr isMaterialTheme
+attr isOpaque
 attr itemBackground
 attr itemFillColor
 attr itemHorizontalPadding
@@ -635,6 +638,7 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr loopCount
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogTheme
 attr materialAlertDialogTitleIconStyle
@@ -1785,6 +1789,8 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable duck_19421
+drawable duckredeye
+drawable frontduckwalk
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2023,6 +2029,7 @@ id fragment_container_view_tag
 id frost
 id ghost_view
 id ghost_view_holder
+id gifImageView
 id gone
 id graph
 id graph_wrap
@@ -2042,7 +2049,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id immediateStop
 id included
 id info
@@ -2460,6 +2466,7 @@ layout text_view_without_line_height
 menu example_menu
 menu example_menu2
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
@@ -3345,6 +3352,8 @@ styleable FontFamilyFont android_font android_fontWeight android_fontStyle andro
 styleable ForegroundLinearLayout android_foreground android_foregroundGravity foregroundInsidePadding
 styleable Fragment android_name android_id android_tag
 styleable FragmentContainerView android_name android_tag
+styleable GifTextureView gifSource isOpaque
+styleable GifView freezesAnimation loopCount
 styleable GradientColor android_startColor android_endColor android_type android_centerX android_centerY android_gradientRadius android_tileMode android_centerColor android_startX android_startY android_endX android_endY
 styleable GradientColorItem android_color android_offset
 styleable ImageFilterView altSrc blendSrc brightness contrast crossfade imagePanX imagePanY imageRotate imageZoom overlay round roundPercent saturation warmth

@@ -32,15 +32,16 @@
         <EditText
             android:id="@+id/editTextTextPersonName"
             android:layout_width="412dp"
-            android:layout_height="208dp"
-            android:layout_marginBottom="300dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="109dp"
+            android:layout_marginBottom="61dp"
             android:backgroundTint="#512829"
             android:ems="10"
             android:inputType="textPersonName"
             android:text="    Mama Duck's Revenge"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#FFFF"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/gifImageView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -53,14 +54,28 @@
             android:text="CLICK TO PLAY"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.75"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
 
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="77dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginBottom="26dp"
+            android:src="@drawable/frontduckwalk"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
     <!--duck icon-->
-    <ImageView
+    <!--<ImageView
         android:id="@+id/imageView"
         android:layout_width="203dp"
         android:layout_height="270dp"
@@ -69,6 +84,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/linearLayout"
         app:layout_constraintTop_toTopOf="@+id/linearLayout"
-        app:srcCompat="@drawable/duck_19421" />
+        app:srcCompat="@drawable/duck_19421" />-->
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!--duck Gif-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
