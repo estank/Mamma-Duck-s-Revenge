@@ -1,11 +1,11 @@
-com/example/myapplication/GameView.java
- com.example.myapplication.GameView
+com/example/myapplication/GameMode.java
+ com.example.myapplication.GameMode
 com/example/myapplication/Background.java
  com.example.myapplication.Background
 com/example/myapplication/BuildConfig.java
  com.example.myapplication.BuildConfig
-com/example/myapplication/GameMode.java
- com.example.myapplication.GameMode
+com/example/myapplication/GameView.java
+ com.example.myapplication.GameView
 com/example/myapplication/MainActivity.java
  com.example.myapplication.MainActivity
  com.example.myapplication.MainActivity$1
