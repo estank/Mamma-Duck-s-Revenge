@@ -7,10 +7,11 @@ import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class GameOver extends AppCompactActivity{
+public class GameOver extends AppCompatActivity {
 
-    TextView tvScore, tvPersonalBest;
+    TextView tvScore,tvPersonalBest;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
