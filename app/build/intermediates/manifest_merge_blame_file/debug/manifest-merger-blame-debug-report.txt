@@ -6,68 +6,104 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml
+8-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml
+9-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:5:5-34:19
+11-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:5:5-40:19
 12        android:allowBackup="true"
-12-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:6:9-35
+12-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Evan\.gradle\caches\transforms-3\6006d603408a8c1ed0edf3e550c48eb5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] /Users/anagha/.gradle/caches/transforms-3/4f721036c94e8aaf521766098bf4c6ef/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:7:9-43
+15-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:7:9-43
 16        android:label="MDR"
-16-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:8:9-28
+16-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:8:9-28
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:9:9-54
+17-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:10:9-35
+18-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:10:9-35
 19        android:theme="@style/Theme.MyApplication" >
-19-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:11:9-51
-20        <activity
-20-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:12:9-14:40
-21            android:name="com.example.myapplication.StorySlide1"
-21-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:13:13-40
-22            android:exported="false" />
-22-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:14:13-37
-23        <!-- MainActivity.java -->
-24        <activity
-24-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:16:9-24:20
-25            android:name="com.example.myapplication.MainActivity"
-25-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:17:13-41
-26            android:exported="true" >
-26-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:18:13-36
-27            <intent-filter>
-27-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:19:13-23:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:20:17-69
-28-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:20:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:22:17-77
-30-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:22:27-74
-31            </intent-filter>
-32        </activity> <!-- GameMode.java (Activity 2) -->
-33        <activity
-33-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:25:9-33:20
-34            android:name="com.example.myapplication.GameMode"
-34-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:26:13-37
-35            android:exported="true" >
-35-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:27:13-36
-36            <intent-filter>
-36-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:19:13-23:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:20:17-69
-37-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:20:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:22:17-77
-39-->C:\Users\Evan\StudioProjects\Mamma-Duck-s-Revenge\app\src\main\AndroidManifest.xml:22:27-74
-40            </intent-filter>
-41        </activity>
-42    </application>
-43
-44</manifest>
+19-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:11:9-51
+20
+21        <!-- MainActivity.java -->
+22        <activity
+22-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:13:9-20:20
+23            android:name="com.example.myapplication.MainActivity"
+23-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:14:13-41
+24            android:exported="true" >
+24-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:15:13-36
+25            <intent-filter>
+25-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:16:13-19:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:17:17-69
+26-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:17-77
+28-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:22:9-29:20
+32            android:name="com.example.myapplication.StorySlide1"
+32-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:23:13-40
+33            android:exported="true" >
+33-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:24:13-36
+34            <intent-filter>
+34-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:16:13-19:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:17:17-69
+35-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:17:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:17-77
+37-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <!-- GameMode.java (Activity 2) -->
+42        <activity
+42-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:32:9-39:20
+43            android:name="com.example.myapplication.GameMode"
+43-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:33:13-37
+44            android:exported="true" >
+44-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:34:13-36
+45            <intent-filter>
+45-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:16:13-19:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:17:17-69
+46-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:17:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:17-77
+48-->/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:27-74
+49            </intent-filter>
+50        </activity>
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/anagha/.gradle/caches/transforms-3/ec83b0b48c2714ec404e0caa0754e772/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/anagha/.gradle/caches/transforms-3/ec83b0b48c2714ec404e0caa0754e772/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+54            android:authorities="com.example.myapplication.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/anagha/.gradle/caches/transforms-3/ec83b0b48c2714ec404e0caa0754e772/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/anagha/.gradle/caches/transforms-3/ec83b0b48c2714ec404e0caa0754e772/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/anagha/.gradle/caches/transforms-3/ec83b0b48c2714ec404e0caa0754e772/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/anagha/.gradle/caches/transforms-3/ec83b0b48c2714ec404e0caa0754e772/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.0.0] /Users/anagha/.gradle/caches/transforms-3/ec83b0b48c2714ec404e0caa0754e772/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/anagha/.gradle/caches/transforms-3/bc8c75de0281c3065d65d2a4ddcb0ea9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/anagha/.gradle/caches/transforms-3/bc8c75de0281c3065d65d2a4ddcb0ea9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/anagha/.gradle/caches/transforms-3/bc8c75de0281c3065d65d2a4ddcb0ea9/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

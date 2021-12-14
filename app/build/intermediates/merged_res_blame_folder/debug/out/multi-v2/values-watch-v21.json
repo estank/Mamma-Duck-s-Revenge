@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Evan\\StudioProjects\\Mamma-Duck-s-Revenge\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Evan\\.gradle\\caches\\transforms-3\\416dadcf94808173a7a1d25aeaa9a596\\transformed\\appcompat-1.3.1\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "/Users/anagha/.gradle/caches/transforms-3/e9905807e644c436ff35b406917b47ef/transformed/appcompat-1.4.0/res/values-watch-v21/values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

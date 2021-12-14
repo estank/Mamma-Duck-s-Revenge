@@ -9,20 +9,12 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/forest"
-            android:onCLick="restart"
-            android:contentDescription="Restart"/>
+
         <View
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_weight="1"/>
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/forest"/>
+
     </LinearLayout>
     <View
         android:layout_width="0dp"
@@ -31,7 +23,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center" />
+        android:gravity="center" >
+
+        <ImageButton
+            android:layout_width="89dp"
+            android:layout_height="90dp"
+            android:background="@drawable/restart"
+            android:contentDescription="Restart"
+            android:onCLick="restart" />
+
+        <ImageButton
+            android:layout_width="154dp"
+            android:layout_height="119dp"
+            android:layout_weight="1"
+            android:background="@drawable/exit"
+            android:contentDescription="Exit"
+            android:onClick="exit"
+            android:scaleType="center" />
+    </LinearLayout>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
@@ -66,7 +75,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvPersonalBest"
             android:layout_weight="1"
-            android:textColor="FFFF00" />
+            android:textColor="@android:color/white" />
 
 
 </LinearLayout>
