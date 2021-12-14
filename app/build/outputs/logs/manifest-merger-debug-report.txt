@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-23:12
+ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-37:12
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/anagha/.gradle/caches/transforms-3/43709c06b605244e4fcdef6e5a127101/transformed/jetified-core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/anagha/.gradle/caches/transforms-3/b64c581a9daa138f08ffadfeafcf90fd/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/anagha/.gradle/caches/transforms-3/c6e6b7c8875e264f9f97d3822c951574/transformed/constraintlayout-2.1.1/AndroidManifest.xml:2:1-11:12
@@ -42,25 +42,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/anagha/.gradle/caches/transforms-3/83a821c5ed854de3bf4d1e5fa7440a04/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/anagha/.gradle/caches/transforms-3/4501bb6c1b16d6c9ef0938c5a599105f/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [pl.droidsonroids:relinker:1.3.1] /Users/anagha/.gradle/caches/transforms-3/12477557f5be4e03a5adb9c835829834/transformed/jetified-relinker-1.3.1/AndroidManifest.xml:2:1-7:12
-INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-23:12
-INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml
-		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-23:12
+		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:1-37:12
 		INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:5:5-21:19
+ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:5:5-35:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/anagha/.gradle/caches/transforms-3/b64c581a9daa138f08ffadfeafcf90fd/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/anagha/.gradle/caches/transforms-3/b64c581a9daa138f08ffadfeafcf90fd/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.1] /Users/anagha/.gradle/caches/transforms-3/c6e6b7c8875e264f9f97d3822c951574/transformed/constraintlayout-2.1.1/AndroidManifest.xml:9:5-20
@@ -84,21 +84,27 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/anag
 	android:theme
 		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:11:9-51
 activity#com.example.myapplication.MainActivity
-ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:12:9-20:20
+ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:14:9-22:20
 	android:exported
-		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:14:13-36
+		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:13:13-41
+		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:15:13-19:29
+ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:16:17-69
+ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:16:25-66
+		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:17-77
+ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:18:27-74
+		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.example.myapplication.GameMode
+ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:25:9-33:20
+	android:exported
+		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:27:13-36
+	android:name
+		ADDED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml:26:13-37
 uses-sdk
 INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/AndroidManifest.xml
