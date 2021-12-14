@@ -3,9 +3,15 @@ package com.example.myapplication;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.view.MotionEvent;
+import android.view.Surface;
+import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
-public class GameView extends SurfaceView implements Runnable{
+import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintSet;
+
+public class GameView extends SurfaceView implements Runnable, SurfaceHolder.Callback {
 
     private Thread thread;
     private boolean isPlaying;
@@ -15,10 +21,14 @@ public class GameView extends SurfaceView implements Runnable{
     private float screenRatioB;
     private Paint paint;
 
+    GameThread gameThread;
+
     private Background background1, background2;
 
     public GameView(Context context, int screenA, int screenB) {
         super(context);
+
+        initView();
 
         this.screenA = screenA;
         this.screenB = screenB;
@@ -91,4 +101,57 @@ public class GameView extends SurfaceView implements Runnable{
         }
     }
 
+    @Override
+    public void surfaceCreated(@NonNull SurfaceHolder surfaceHolder) {
+        if(!gameThread.isRunning()) {
+            gameThread = new GameThread(holder);
+            gameThread.start();
+        }
+        else{
+            gameThread.start();
+        }
+    }
+
+    @Override
+    public void surfaceChanged(@NonNull SurfaceHolder surfaceHolder, int i, int i1, int i2) {
+
+    }
+
+    @Override
+    public void surfaceDestroyed(@NonNull SurfaceHolder surfaceHolder) {
+        if(gameThread.isRunning()) {
+            gameThread.setIsRunning(false);
+            boolean retry = true;
+            while(retry) {
+                try {
+                    gameThread.join();
+                    retry = false;
+                } catch (InterruptedException e) {
+
+                }
+            }
+        }
+    }
+
+    public void initView() {
+        SurfaceHolder holder = getHolder();
+        holder.addCallback(this);
+        setFocusable(true);
+        gameThread = new GameThread(holder);
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        int action = event.getAction();
+        if(action == MotionEvent.ACTION_DOWN) {
+            if(AppConstants.getGameEngine().gameState == 0) {
+                AppConstants.getGameEngine().gameState = 1;
+            }
+            if(AppConstants.playerGrounded = true) {
+                AppConstants.getGameEngine().player.setVelocity(AppConstants.VELOCITY_WHEN_JUMPED);
+                AppConstants.playerGrounded = false;
+            }
+        }
+        return true;
+    }
 }
