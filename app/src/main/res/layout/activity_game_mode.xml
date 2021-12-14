@@ -1,26 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameMode">
+    tools:context=".GameMode"
+    android:orientation="horizontal">
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/forest"
         android:scaleType="centerCrop"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Highscore"
-        android:textColor="#ffffff"
-        android:textSize="34sp"
-        android:id="@+id/highscoreTxt"
-        android:layout_alignParentRight="true"
-        android:layout_margin="16dp"
-        />
 
     <ImageView
         android:layout_width="36dp"
@@ -30,4 +20,13 @@
         android:id="@+id/volumecontrol"
         android:src="@drawable/ic_baseline_volume_up_24"/>
 
-</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="32dp"
+        android:text="@string/score"
+        android:textColor="@android:color/white"
+        />
+
+
+</LinearLayout>
