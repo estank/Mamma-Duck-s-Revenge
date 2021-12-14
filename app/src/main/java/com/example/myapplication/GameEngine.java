@@ -8,7 +8,6 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 public class GameEngine {
@@ -20,7 +19,6 @@ public class GameEngine {
     Paint scorePaint;
     int pFrame, pJFrame, pDFrame;
     static int gameState;
-    ArrayList<Obstacles> obstaclesList;
     Obstacles obstacles;
     Obstacles obstaclesLog;
     Bitmap obs;
@@ -43,7 +41,6 @@ public class GameEngine {
         scorePaint.setTextAlign(Paint.Align.LEFT);
         obstacles = new Obstacles("");
         obstaclesLog = new Obstacles("Log");
-        obstaclesList.add(obstaclesLog);
         points = 0;
     }
 
@@ -123,8 +120,7 @@ public class GameEngine {
     public void updateAndDrawObstacles(Canvas canvas){
         if(gameState == 1) {
             if(obsSpawned == false) {
-                int randIndex = random.nextInt(5);
-                obstacles = obstaclesList.get(randIndex);
+                obstacles = obstaclesLog;
                 obsSpawned = true;
             }
             if(collision == false) {
