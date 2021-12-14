@@ -9,7 +9,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 import androidx.annotation.NonNull;
-import androidx.constraintlayout.widget.ConstraintSet;
+//import androidx.constraintlayout.widget.ConstraintSet;
 
 public class GameView extends SurfaceView implements Runnable, SurfaceHolder.Callback {
 
@@ -107,7 +107,7 @@ public class GameView extends SurfaceView implements Runnable, SurfaceHolder.Cal
     @Override
     public void surfaceCreated(@NonNull SurfaceHolder surfaceHolder) {
         if(!gameThread.isRunning()) {
-            gameThread = new GameThread(holder);
+            gameThread = new GameThread(surfaceHolder);
             gameThread.start();
         }
         else{

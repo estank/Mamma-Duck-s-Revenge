@@ -3,14 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/ic_baseline_volume_off_24.xml" value="0.15989583333333332" />
-        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/ic_baseline_volume_up_24.xml" value="0.15989583333333332" />
-        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/layout/activity_2.xml" value="0.14375" />
-        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/layout/activity_game_mode.xml" value="0.268" />
-        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/Evan/StudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/layout/activity_story_slide1.xml" value="0.132" />
         <entry key="app/src/main/res/layout/activity_game_mode.xml" value="0.15729166666666666" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/game_over.xml" value="0.1" />
         <entry key="app/src/main/res/layout/themes.xml" value="0.16770833333333332" />
       </map>
     </option>
