@@ -94,9 +94,16 @@ public class GameEngine {
                 }
             }
             else if(collision == false && AppConstants.playerGrounded) {
+                canvas.drawBitmap(AppConstants.getBitmapBank().getPlayer(pFrame), player.getX(), player.getY(), null);
+                pFrame++;
+                if(pFrame > 3) {
+                    pFrame = 0;
+                }
+            }
+            else if(collision == true && AppConstants.playerGrounded) {
                 canvas.drawBitmap(AppConstants.getBitmapBank().getPlayerDead(pDFrame), playerDead.getX(), playerDead.getY(), null);
                 pDFrame++;
-                if(pDFrame == 3) {
+                if(pDFrame == 4) {
                     gameState = 2;
                     Context context = AppConstants.gameActivityContext;
                     Intent intent = new Intent(context, GameOver.class);

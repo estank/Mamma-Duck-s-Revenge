@@ -12,12 +12,12 @@
         "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable-v24/birdsoldier.gif"
     },
     {
-        "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/drawable_ic_baseline_volume_up_24.xml.flat",
-        "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/ic_baseline_volume_up_24.xml"
-    },
-    {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/drawable_duck_walk_2.png.flat",
         "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/duck_walk_2.png"
+    },
+    {
+        "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/drawable_ic_baseline_volume_up_24.xml.flat",
+        "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/ic_baseline_volume_up_24.xml"
     },
     {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
