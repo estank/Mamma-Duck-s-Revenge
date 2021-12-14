@@ -44,7 +44,7 @@ public class GameEngine {
         points = 0;
     }
 
-    public void updateAndDrawBackgroundImage(Canvas canvas) {
+   /* public void updateAndDrawBackgroundImage(Canvas canvas) {
         if(collision == false) {
             backgroundImage.setA(backgroundImage.getA() - backgroundImage.getVelocity());
             if(backgroundImage.getA() < AppConstants.getBitmapBank().getBackgroundWidth()) {
@@ -55,7 +55,7 @@ public class GameEngine {
         if(backgroundImage.getA() < -(AppConstants.getBitmapBank().getBackgroundWidth() - AppConstants.SCREEN_WIDTH)) {
             canvas.drawBitmap(AppConstants.getBitmapBank().getBackground(), backgroundImage.getA() + AppConstants.getBitmapBank().getBackgroundWidth(), backgroundImage.getB(), null);
         }
-    }
+    }*/
 
     public void updateAndDrawPlayer (Canvas canvas) {
         if(gameState == 1) {
@@ -64,7 +64,7 @@ public class GameEngine {
                 player.setY(player.getY() + player.getVelocity());
                 canvas.drawBitmap(AppConstants.getBitmapBank().getPlayerJump(pJFrame), player.getX(), player.getY(), null);
                 pJFrame++;
-                if(pJFrame > 4) {
+                if(pJFrame > 3) {
                     pJFrame = 0;
                 }
                 if(player.getY() >= player.pYInitial) {

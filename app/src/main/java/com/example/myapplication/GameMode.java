@@ -1,13 +1,13 @@
 //Activity 2
 package com.example.myapplication;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.graphics.Point;
 import android.os.Bundle;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.RelativeLayout;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class GameMode extends AppCompatActivity {
 
@@ -20,9 +20,9 @@ public class GameMode extends AppCompatActivity {
         AppConstants.gameActivityContext = this;
         RelativeLayout layout = new RelativeLayout(this);
         layout.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
-        gameView = new GameView(this);
-        layout.addView(gameView);
-        setContentView(layout);
+        //gameView = new GameView(this);
+        //layout.addView(gameView);
+        //setContentView(layout);
 
         setContentView(R.layout.activity_game_mode);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
@@ -31,6 +31,7 @@ public class GameMode extends AppCompatActivity {
         getWindowManager().getDefaultDisplay().getSize(point);
 
         gameView = new GameView(this,point.x, point.y);
+
 
         setContentView(gameView);
     }

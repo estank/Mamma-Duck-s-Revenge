@@ -1,13 +1,15 @@
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/GameOver.java
+ com.example.myapplication.GameOver
+com/example/myapplication/Background.java
+ com.example.myapplication.Background
 com/example/myapplication/PlayerDead.java
  com.example.myapplication.PlayerDead
 com/example/myapplication/Player.java
  com.example.myapplication.Player
 com/example/myapplication/GameMode.java
  com.example.myapplication.GameMode
-com/example/myapplication/Background.java
- com.example.myapplication.Background
-com/example/myapplication/BuildConfig.java
- com.example.myapplication.BuildConfig
 com/example/myapplication/BitmapBank.java
  com.example.myapplication.BitmapBank
 com/example/myapplication/Obstacles.java
@@ -15,8 +17,6 @@ com/example/myapplication/Obstacles.java
 com/example/myapplication/MainActivity.java
  com.example.myapplication.MainActivity
  com.example.myapplication.MainActivity$1
-com/example/myapplication/GameOver.java
- com.example.myapplication.GameOver
 com/example/myapplication/GameEngine.java
  com.example.myapplication.GameEngine
 com/example/myapplication/GameView.java

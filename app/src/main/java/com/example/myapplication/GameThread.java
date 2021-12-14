@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 import android.graphics.Canvas;
-import android.os.SystemClock;
 import android.view.SurfaceHolder;
 
 public class GameThread extends Thread {
@@ -18,11 +17,11 @@ public class GameThread extends Thread {
     @Override
     public void run() {
         while(isRunning) {
-            startTime = SystemClock.uptimeMillis();
+            //startTime = SystemClock.uptimeMillis();
             Canvas canvas = surfaceHolder.lockCanvas(null);
             if(canvas != null) {
                 synchronized (surfaceHolder) {
-                    AppConstants.getGameEngine().updateAndDrawBackgroundImage(canvas);
+                    //AppConstants.getGameEngine().updateAndDrawBackgroundImage(canvas);
                     //AppConstants.getGameEngine().updateAndDrawPath(canvas);
                     AppConstants.getGameEngine().updateAndDrawPlayer(canvas);
                     AppConstants.getGameEngine().updateAndDrawObstacles(canvas);
@@ -30,7 +29,7 @@ public class GameThread extends Thread {
                     surfaceHolder.unlockCanvasAndPost(canvas);
                 }
             }
-            loopTime = SystemClock.uptimeMillis() - startTime;
+            //loopTime = SystemClock.uptimeMillis() - startTime;
             if(loopTime < DELAY) {
                 try{
                     Thread.sleep(DELAY - loopTime);

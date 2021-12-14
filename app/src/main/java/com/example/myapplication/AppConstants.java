@@ -1,7 +1,6 @@
 package com.example.myapplication;
 
 import android.content.Context;
-import android.graphics.Bitmap;
 import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.WindowManager;
@@ -38,7 +37,7 @@ public class AppConstants {
     public static void setGameConstants() {
         AppConstants.gravity = 3;
         AppConstants.VELOCITY_WHEN_JUMPED = -40;
-        AppConstants.VELOCITY_OBSTACLES = 45;
+        AppConstants.VELOCITY_OBSTACLES = 20;
         AppConstants.playerGrounded = true;
     }
 

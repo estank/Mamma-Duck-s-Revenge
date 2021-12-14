@@ -4,12 +4,10 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.view.MotionEvent;
-import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 import androidx.annotation.NonNull;
-//import androidx.constraintlayout.widget.ConstraintSet;
 
 public class GameView extends SurfaceView implements Runnable, SurfaceHolder.Callback {
 
@@ -25,10 +23,10 @@ public class GameView extends SurfaceView implements Runnable, SurfaceHolder.Cal
 
     private Background background1, background2;
 
-    public GameView(Context context) {
+   /* public GameView(Context context) {
         super(context);
         initView();
-    }
+    }*/
 
     public GameView(Context context, int screenA, int screenB) {
         super(context);
@@ -44,6 +42,7 @@ public class GameView extends SurfaceView implements Runnable, SurfaceHolder.Cal
         background2.a = screenA;
 
         paint = new Paint();
+        initView();
     }
 
     @Override
