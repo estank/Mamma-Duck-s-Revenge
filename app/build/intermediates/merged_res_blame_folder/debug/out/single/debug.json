@@ -12,12 +12,20 @@
         "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/duck_walking.gif"
     },
     {
+        "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/layout_activity_game_mode.xml.flat",
+        "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/layout/activity_game_mode.xml"
+    },
+    {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/drawable_forest.png.flat",
+        "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/forest.png"
     },
     {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
@@ -58,6 +66,10 @@
     {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/drawable_egg.png.flat",
+        "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/egg.png"
     },
     {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
