@@ -16,16 +16,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        AppConstants.initialization(this.getApplicationContext());
         button = (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openActivity2();
+                Intent intent = new Intent(MainActivity.this, GameMode.class);
+                startActivity(intent);
+                finish();
             }
         });
-    }
-    public void openActivity2() {
-        Intent intent = new Intent(this, GameMode.class);
-        startActivity(intent);
+
     }
 }
