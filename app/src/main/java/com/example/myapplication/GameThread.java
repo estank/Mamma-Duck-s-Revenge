@@ -27,7 +27,6 @@ public class GameThread extends Thread {
                     AppConstants.getGameEngine().updateAndDrawPlayer(canvas);
                     AppConstants.getGameEngine().updateAndDrawObstacles(canvas);
                     AppConstants.getGameEngine().tapToStart(canvas);
-
                     surfaceHolder.unlockCanvasAndPost(canvas);
                 }
             }

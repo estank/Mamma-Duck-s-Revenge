@@ -25,10 +25,13 @@ public class GameView extends SurfaceView implements Runnable, SurfaceHolder.Cal
 
     private Background background1, background2;
 
+    public GameView(Context context) {
+        super(context);
+        initView();
+    }
+
     public GameView(Context context, int screenA, int screenB) {
         super(context);
-
-        initView();
 
         this.screenA = screenA;
         this.screenB = screenB;
