@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/drawable_duck_19421.png.flat",
-        "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/duck_19421.png"
-    },
-    {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/drawable_duckredeye.png.flat",
         "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/duckredeye.png"
+    },
+    {
+        "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/drawable_duck_walking.gif.flat",
+        "source": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/src/main/res/drawable/duck_walking.gif"
     },
     {
         "merged": "/Users/anagha/AndroidStudioProjects/Mamma-Duck-s-Revenge/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",

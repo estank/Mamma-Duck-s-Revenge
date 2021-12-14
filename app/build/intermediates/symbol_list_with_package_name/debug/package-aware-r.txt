@@ -1788,7 +1788,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable duck_19421
+drawable duck_walking
 drawable duckredeye
 drawable frontduckwalk
 drawable ic_clock_black_24dp
