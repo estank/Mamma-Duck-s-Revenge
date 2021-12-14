@@ -7,7 +7,7 @@ import android.view.Display;
 import android.view.WindowManager;
 
 public class AppConstants {
-    static Bitmap bitmapBank;
+    static BitmapBank bitmapBank;
     static GameEngine gameEngine;
     static int SCREEN_WIDTH, SCREEN_HEIGHT;
     static int gravity;

@@ -17,7 +17,6 @@ public class BitmapBank {
         log = BitmapFactory.decodeResource(res, R.drawable.log);
     }
 
-    //background
     public Bitmap getBackground() {
         return background;
     }
@@ -28,7 +27,6 @@ public class BitmapBank {
         return background.getHeight();
     }
 
-    //player
     public Bitmap getPlayer() {
         return player;
     }
@@ -39,7 +37,6 @@ public class BitmapBank {
         return player.getHeight();
     }
 
-    //egg
     public Bitmap getEgg() {
         return egg;
     }
@@ -50,7 +47,6 @@ public class BitmapBank {
         return egg.getHeight();
     }
 
-    //log
     public Bitmap getLog() {
         return log;
     }
